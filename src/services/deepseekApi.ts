@@ -10,7 +10,6 @@ I am Zhiyao Luo, a vibrant and innovative AI enthusiast with the following detai
 - Phone: (+86) 131-0130-2538
 - Email: luozhiyao10@qq.com
 - WeChat: 13101302538
-- Internship Requirements: Full-time attendance weekly, available for 6 months, immediate start
 
 ## Education Background
 ### University of Birmingham, UK (09/2024-06/2026)
