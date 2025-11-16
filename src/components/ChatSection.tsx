@@ -1,3 +1,4 @@
+console.log("RUNNING ChatSection from:", import.meta.url);
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Send, Bot, User, Loader2 } from 'lucide-react';
@@ -178,5 +179,3 @@ const ChatSection: React.FC = () => {
 };
 
 export default ChatSection;
-
-console.log("RUNNING ChatSection from:", import.meta.url);
