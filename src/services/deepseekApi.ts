@@ -142,7 +142,8 @@ export async function sendMessageToDeepSeek(message: string): Promise<string> {
     }
 
     const data = await response.json();
-    return data.choices?.message?.content || 'Oops, I seem to be stuck, could you ask again? 😅';
+    const content = data.choices?.[0]?.message?.content;
+    return content || 'Oops, I seem to be stuck, could you ask again? 😅';
   } catch (error) {
     console.error('DeepSeek API Error:', error);
     return 'Oops, my brain is temporarily short-circuited, please try again later~ 🤖💭';
