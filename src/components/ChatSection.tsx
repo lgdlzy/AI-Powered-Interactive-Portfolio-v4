@@ -178,3 +178,5 @@ const ChatSection: React.FC = () => {
 };
 
 export default ChatSection;
+
+console.log("RUNNING ChatSection from:", import.meta.url);
