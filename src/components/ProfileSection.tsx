@@ -123,8 +123,7 @@ const ProfileSection: React.FC = () => {
         {/* 增加1厘米垂直间距 (约38px) */}
         <div className="h-10"></div>
         
-        <h1 className="text-3xl font-bold text-white mb-2">AI & Data–Driven Finance Student</h1>
-        <p className="text-2xl font-semibold bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent mb-2">Zhiyao Luo</p>
+        <h1 className="text-3xl font-bold bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent mb-2">Zhiyao Luo</h1>
         <div className="text-gray-300 mb-6 leading-snug">
           <p className="font-semibold">University of Birmingham, UK</p>
           <p className="text-sm">B.Sc. Mathematical Economics and Statistics</p>
