@@ -1,9 +1,11 @@
-console.log("RUNNING ChatSection from:", import.meta.url);
+
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Send, Bot, User, Loader2 } from 'lucide-react';
 import { Message } from '../types/chat';
 import { sendMessageToDeepSeek } from '../services/deepseekApi';
+
+console.log("RUNNING ChatSection FROM:", import.meta.url);
 
 const ChatSection: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
