@@ -8,7 +8,7 @@ const ChatSection: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      content: 'Hi! I\'m Zhiyao Luo\'s AI assistant 🤖✨ Nice to meet you! I can tell you about this energetic product manager intern\'s skills, experience, and projects~ Feel free to ask me anything! 😊',
+      content: 'Hi! I'm Zhiyao Luo's AI assistant 🤖. Nice to meet you! I can answer questions about Zhiyao’s background, experience, projects, and skills. Feel free to ask anything!😊',
       role: 'assistant',
       timestamp: new Date()
     }
@@ -79,7 +79,7 @@ const ChatSection: React.FC = () => {
           </div>
           <div>
             <h3 className="font-semibold text-white">Zhiyao Luo's AI Assistant</h3>
-            <p className="text-xs text-gray-400">Online - Ready to introduce this energetic product newcomer ✨</p>
+            <p className="text-xs text-gray-400">Online - Happy to help you learn more about Zhiyao Luo ✨</p>
           </div>
         </div>
       </div>
