@@ -124,6 +124,9 @@ const ProfileSection: React.FC = () => {
         <div className="h-10"></div>
         
         <h1 className="text-3xl font-bold bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent mb-2">Zhiyao Luo</h1>
+        <h1 className="text-xl font-bold text-white mb-2">
+          AI & Data-Driven Finance Student
+        </h1>
         <div className="text-gray-300 mb-6 leading-snug">
           <p className="font-semibold">University of Birmingham, UK</p>
           <p className="text-sm">B.Sc. Mathematical Economics and Statistics</p>
