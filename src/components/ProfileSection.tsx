@@ -5,14 +5,6 @@ import PixelAvatar from './PixelAvatar';
 
 
 const ProfileSection: React.FC = () => {
-    const education = [
-    {
-      period: '09/2021 – 06/2024',
-      school: 'University of Birmingham, UK',
-      degree: 'B.Sc. Mathematical Economics and Statistics',
-      details: ['WAM: 76.67/100 (Top 5%)'],
-    },
-  ];
   const academicPractice = [
     {
       period: '12/2024',
