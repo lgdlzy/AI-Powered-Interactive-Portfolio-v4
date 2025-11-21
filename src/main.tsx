@@ -1,5 +1,4 @@
-import { inject } from '@vercel/analytics';
-inject();
+import { Analytics } from "@vercel/analytics/next"
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
