@@ -112,7 +112,6 @@ export async function sendMessageToDeepSeek(message: string): Promise<string> {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${DEEPSEEK_API_KEY}`,
       },
       body: JSON.stringify({
         model: 'deepseek-chat',
