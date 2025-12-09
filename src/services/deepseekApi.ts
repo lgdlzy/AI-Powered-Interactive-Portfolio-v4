@@ -1,5 +1,5 @@
-const DEEPSEEK_API_KEY = 6ee5db80-f534-4962-909c-d367e075023b;
-const DEEPSEEK_API_URL = 'https://ark.cn-beijing.volces.com/api/v3/chat/completions';
+const DEEPSEEK_API_KEY = 'sk-429df690bb7d4610917fd97197ed43f7';
+const DEEPSEEK_API_URL = 'https://api.deepseek.com/chat/completions';
 
 // Personal Resume Knowledge Base - Based on real resume information
 const RESUME_CONTEXT = `
